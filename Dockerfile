@@ -4,6 +4,8 @@ WORKDIR /app
 
 COPY requirements/backend.in .
 
+RUN apk update && \
+    apk add --no-cache build-base gcc musl-dev python3-dev
 RUN pip install --user --no-warn-script-location -r backend.in
 
 FROM python:slim-bullseye
