@@ -1,4 +1,4 @@
-FROM python:slim-bullseye AS builder
+FROM python:3.10-alpine3.14 AS builder
 
 WORKDIR /app
 
