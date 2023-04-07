@@ -8,7 +8,7 @@ RUN apk update && \
     apk add --no-cache build-base gcc musl-dev python3-dev
 RUN pip install --user --no-warn-script-location -r backend.in
 
-FROM python:slim-bullseye
+FROM python:3.10-alpine3.14
 
 WORKDIR /app
 

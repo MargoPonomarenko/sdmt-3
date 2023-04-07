@@ -1,6 +1,7 @@
 blinker==1.4
 cached-property==1.5.1
 Click==7.0
+fastapi==0.95.0
 docker==4.1.0
 entrypoints==0.3
 idna==2.8
@@ -9,3 +10,4 @@ oauthlib==3.1.0
 PyJWT==1.7.1
 PyYAML==5.3.1
 websocket-client==0.53.0
+uvicorn==0.21.1
